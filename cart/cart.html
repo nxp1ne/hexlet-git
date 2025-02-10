@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>Корзина</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="./cart.html">Корзина (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart-items">
+            <h2>Товары в корзине:</h2>
+            <div id="cart-list">
+                <!-- Товары будут отображаться здесь -->
+            </div>
+            <div class="cart-total">
+                <h3>Итого: <span id="total-price">$0</span></h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Магазин Электроники</p>
+    </footer>
+
+    <script src="../main.js"></script>
+</body>
+</html>
