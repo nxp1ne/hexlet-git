@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>E-commerce Сайт</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Магазин Электроники</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Корзина (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Товар 1">
+                <h3>Смартфон</h3>
+                <p>Цена: $500</p>
+                <button class="add-to-cart" data-product="Смартфон">Добавить в корзину</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Товар 2">
+                <h3>Ноутбук</h3>
+                <p>Цена: $1200</p>
+                <button class="add-to-cart" data-product="Ноутбук">Добавить в корзину</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Товар 3">
+                <h3>Наушники</h3>
+                <p>Цена: $100</p>
+                <button class="add-to-cart" data-product="Наушники">Добавить в корзину</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Магазин Электроники</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
