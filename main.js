@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const cvv = document.getElementById('cvv').value.trim();
 
             if (
-                cardNumber.length !== 16 ||
+                cardNumber.length !== 2 ||
                 cardHolder === '' ||
                 !/^\d{2}\/\d{2}$/.test(expiryDate) ||
                 cvv.length !== 3
