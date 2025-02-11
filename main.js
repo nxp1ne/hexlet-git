@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else {
             cartItems.forEach(item => {
                 const cartItemDiv = document.createElement('div');
-                cartItemDiv.classList.add('cart-item', 'col-md-12', 'p-3', 'bg-white', 'rounded', 'shadow-sm');
+                cartItemDiv.classList.add('cart-item', 'col-md-12', 'p-3', 'bg-white', 'rounded', 'shadow-sm', 'card-title');
                 cartItemDiv.innerHTML = `
                     <p class="m-0">${item.product} - $${item.price}</p>
                 `;
